@@ -1,0 +1,5 @@
+title: Test rule
+detection:
+  avatarhash:
+    - f607f494c
+  condition: avatarhash

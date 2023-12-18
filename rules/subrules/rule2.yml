@@ -1,0 +1,9 @@
+title: Test rule
+detection:
+  avatarhash:
+    - f607f494c
+    - f607fasdd
+    - f6??7fasdd
+  namepattern:
+    - name|startswith: sou
+  condition: avatarhash and not namepattern
